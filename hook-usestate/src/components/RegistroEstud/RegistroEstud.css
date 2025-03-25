@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff; 
+    color: #000; 
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 50px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 20px;
+}
+
+#input-nombre,
+#input-edad,
+#input-carnet {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #d1cfcf; 
+    background-color: #d1cfcf;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+#btn-agregar {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+#btn-agregar:hover {
+    background-color: #0056b3; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#liJuan {
+    background-color: #d1cfcf;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
